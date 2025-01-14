@@ -63,7 +63,7 @@ export default function Section1() {
                 <Image src={WheelLogo2} alt="Logo" />
             </div>
 
-            <div className="rounded-full size-[1293px] absolute -top-[850] left-[850] z-0 bg-[#1C3D5B]"></div>
+            <div className="rounded-full size-[1293px] absolute -top-[850px] left-[850px] z-0 bg-[#1C3D5B]"></div>
 
             {/* <Image
                 className="absolute z-0 top-0 right-0"

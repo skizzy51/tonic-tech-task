@@ -115,7 +115,7 @@ export default function Section4() {
                         Start now
                     </button>
                 </div>
-                <div className="rounded-full size-[1293px] absolute -top-[1054] left-[466] z-0 bg-[#1C3D5B]"></div>
+                <div className="rounded-full size-[1293px] absolute -top-[1054px] left-[466px] z-0 bg-[#1C3D5B]"></div>
             </div>
         </div>
     )

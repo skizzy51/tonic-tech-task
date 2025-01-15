@@ -6,23 +6,26 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa6"
 
 export default function Section3() {
     return (
-        <div className="w-full py-20 px-40 overflow-x-hidden bg-darkBlue">
+        <div className="w-full py-20 px-40 max-[900px]:px-10 max-sm:px-5 overflow-x-hidden bg-darkBlue">
             <div className="flex justify-between items-end">
-                <h2 className="text-5xl leading-[4.5rem] max-w-[60%] text-white">
+                <h2 className="text-5xl max-md:text-4xl max-sm:text-2xl leading-[4.5rem] max-w-[60%] text-white">
                     An enterprise template to ramp up your company website
                 </h2>
                 <div className="flex gap-x-8">
-                    <button className="p-5 rounded-full bg-white">
-                        <FaArrowLeft size={32} />
+                    <button className="p-5 max-md:p-3 rounded-full bg-white">
+                        <FaArrowLeft className="max-md:size-[22px]" size={32} />
                     </button>
-                    <button className="p-5 rounded-full bg-white">
-                        <FaArrowRight size={32} />
+                    <button className="p-5 max-md:p-3 rounded-full bg-white">
+                        <FaArrowRight
+                            className="max-md:size-[22px]"
+                            size={32}
+                        />
                     </button>
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-x-4 mt-16">
-                <div className="p-10 flex flex-col rounded-[12px] h-fit bg-white">
+            <div className="grid grid-cols-3 max-[600px]:grid-cols-1 max-md:grid-cols-2 gap-4 mt-16">
+                <div className="p-10 flex flex-col rounded-[12px] h-fit max-md:h-auto bg-white">
                     <p className="text-2xl">
                         “Buyer buzz partner network disruptive non-disclosure
                         agreement business”
@@ -35,7 +38,7 @@ export default function Section3() {
                         </div>
                     </div>
                 </div>
-                <div className="p-10 flex flex-col rounded-[12px] h-fit bg-white">
+                <div className="p-10 flex flex-col rounded-[12px] h-fit max-md:h-auto bg-white">
                     <p className="text-2xl">
                         “Learning curve infrastructure value proposition advisor
                         strategy user experience hypotheses investor.”
@@ -48,7 +51,7 @@ export default function Section3() {
                         </div>
                     </div>
                 </div>
-                <div className="p-10 flex flex-col rounded-[12px] h-fit bg-white">
+                <div className="p-10 flex flex-col rounded-[12px] h-fit max-md:h-auto bg-white">
                     <p className="text-2xl">
                         “Release facebook responsive web design business model
                         canvas seed money monetization.”

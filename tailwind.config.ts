@@ -14,6 +14,14 @@ export default {
                 darkBlue: "#0A2640",
             },
         },
+        screens: {
+            sm: "425px",
+            md: "769px",
+            lg: "1024px",
+            mxl: "1150px",
+            xl: "1286px",
+            "2xl": "1536px",
+        },
     },
     plugins: [],
 } satisfies Config

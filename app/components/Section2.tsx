@@ -10,17 +10,17 @@ import { FiEye, FiFeather, FiSun } from "react-icons/fi"
 
 export default function Section2() {
     return (
-        <div className="w-full py-20 px-40 overflow-x-hidden bg-white">
-            <div className="flex flex-col items-center max-w-[70%] mx-auto">
+        <div className="w-full py-20 px-40 max-[900px]:px-10 max-sm:px-5 overflow-x-hidden bg-white">
+            <div className="flex flex-col items-center w-[70%] max-md:w-full mx-auto">
                 <h6 className="text-center text-xl text-[#777777]">
                     Our Services
                 </h6>
-                <h2 className="text-5xl leading-[4.5rem] text-center">
+                <h2 className="text-5xl max-md:text-[2.5rem] leading-[4.5rem] max-md:leading-[3rem] text-center">
                     Handshake infographic mass market crowdfunding iteration.
                 </h2>
             </div>
-            <div className="flex justify-between gap-x-5 mt-16">
-                <div className="flex flex-col w-[300px]">
+            <div className="flex max-md:grid max-[550px]:grid-cols-1 max-md:grid-cols-2 justify-between gap-x-5 gap-y-5 mt-16">
+                <div className="flex flex-col w-[300px] max-md:w-full">
                     <Image
                         className="h-[354px] w-full rounded-[24px]"
                         src={Vector1}
@@ -34,7 +34,7 @@ export default function Section2() {
                         Explore page <FaArrowRight />
                     </button>
                 </div>
-                <div className="flex flex-col w-[300px]">
+                <div className="flex flex-col w-[300px] max-md:w-full">
                     <Image
                         className="h-[354px] w-full rounded-[24px]"
                         src={Vector2}
@@ -48,7 +48,7 @@ export default function Section2() {
                         Explore page <FaArrowRight />
                     </button>
                 </div>
-                <div className="flex flex-col w-[300px]">
+                <div className="flex flex-col w-[300px] max-md:w-full">
                     <Image
                         className="h-[354px] w-full rounded-[24px]"
                         src={Vector3}
@@ -65,10 +65,10 @@ export default function Section2() {
             </div>
             {/* cool feature title */}
 
-            <div className="flex justify-between items-center gap-x-5 mt-40">
+            <div className="flex max-[900px]:flex-col justify-between items-center gap-5 mt-40">
                 <Image src={PersonStats1} alt="" />
 
-                <div className="flex flex-col max-w-[40%]">
+                <div className="flex flex-col w-[40%] max-md:w-full">
                     <h3 className="text-4xl leading-[3.5rem]">
                         We connect our customers with the best, and help them
                         keep up-and stay open.
@@ -107,8 +107,8 @@ export default function Section2() {
                 </div>
             </div>
 
-            <div className="flex justify-between items-center gap-x-5 mt-10">
-                <div className="flex flex-col max-w-[45%]">
+            <div className="flex max-[900px]:flex-col max-[900px]:flex-col-reverse justify-between items-center gap-5 mt-10">
+                <div className="flex flex-col w-[45%] max-md:w-full">
                     <h3 className="text-4xl leading-[3.5rem]">
                         We connect our customers with the best, and help them
                         keep up-and stay open.
